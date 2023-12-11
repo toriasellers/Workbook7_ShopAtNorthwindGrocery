@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="assets/css/index.css" rel="stylesheet" />
+</head>
+<body class="minimal-luxury-bg">
+  <header class="bg-light text-dark text-center py-3">
+    <h1 class="luxury-font">Product Search - Northwind Grocery</h1>
+  </header>
+  <nav>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="productSearch.html">Product Search</a>
+    </div>
+  </nav>
+  <main>
+    <br>
+    <br>
+    <form id="searchForm">
+      <div >
+        <label for="searchOption" class="form-label">Select Search Option:</label>
+        <select id="searchOption">
+          <option value="viewAll">View All</option>
+          <option value="byCategory">Search By Category</option>
+        </select>
+      </div>
+      <br>
+      <br>
+      <div id="categoryDropdown">
+        <label for="category" class="form-label">Select Category</label>
+        <select id="category">
+          <!-- USE JS -->
+        </select>
+      </div>
+      <br>
+      <button type="button" id="searchButton">Search</button>
+    </form>
+
+    <div class="row" id="productList">
+      <!-- USE JS -->
+    </div>
+   
+  </main>
+  
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
+
+
